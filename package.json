@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-vue": "^4.2.8",
+    "aws-amplify": "^6.3.8",
+    "daisyui": "^4.12.10",
+    "date-fns": "^3.6.0",
+    "nuxt": "^3.12.2",
+    "ulid": "^2.3.0",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.0"
+  }
+}
