@@ -10,8 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@aws-amplify/ui-vue": "^4.2.8",
-    "aws-amplify": "^6.3.8",
+    "amazon-cognito-identity-js": "^6.3.12",
+    "aws-jwt-verify": "^4.0.1",
     "daisyui": "^4.12.10",
     "date-fns": "^3.6.0",
     "nuxt": "^3.12.2",
