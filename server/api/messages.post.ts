@@ -1,5 +1,5 @@
-import { Message } from "yup";
 import { ulid } from "ulid";
+import { Message } from "~/types/message";
 import { MessageCreateDto } from "~/types/message_create_dto";
 
 export default defineEventHandler(async (event) => {

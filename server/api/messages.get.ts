@@ -1,4 +1,4 @@
-import { Message } from "yup";
+import { Message } from "~/types/message";
 
 export default defineEventHandler(async (event) => {
   const messages = await getMessages("");
